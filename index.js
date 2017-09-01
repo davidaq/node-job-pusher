@@ -1,0 +1,1 @@
+console.error('This is not to be designed to be a requireable library. Run as executable instead.');
