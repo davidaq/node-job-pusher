@@ -29,9 +29,14 @@
 ```
 {
   _id         : string,
-  detail      : string,
+  payload     : string,
   retried     : number,
+  priority    : number,
+  topic       : string,
   createtime  : number,
+  output      : string, // base64
+  outputType  : string, // content-type
+  status      : string, // [pending|running|success|failure]
 }
 ```
 
@@ -42,5 +47,6 @@
   _id       : string,   // detail._id
   topic     : string,   // topic._id + [0|1|2]
   seq       : number,
+  working   : number,   // [0|1]
 }
 ```
