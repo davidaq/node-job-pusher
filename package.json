@@ -23,7 +23,11 @@
   },
   "homepage": "https://github.com/davidaq/node-job-pusher#readme",
   "dependencies": {
+    "concat-stream": "^1.6.0",
+    "ejs": "^2.5.7",
     "express": "^4.15.4",
-    "nedb": "^1.8.0"
+    "nedb": "^1.8.0",
+    "qs": "^6.5.0",
+    "serve-static": "^1.12.4"
   }
 }
