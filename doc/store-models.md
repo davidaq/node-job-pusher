@@ -33,7 +33,7 @@
   retried     : number,
   priority    : number,
   topic       : string,
-  createtime  : number,
+  createtime  : Date,
   output      : string, // base64
   outputType  : string, // content-type
   status      : string, // [pending|running|success|failure]
