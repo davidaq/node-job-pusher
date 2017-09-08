@@ -6,7 +6,7 @@
   retries   : number,
   backoff   : number,
   timeout   : number,
-  worker    : []{
+  workers   : []{
     concurrency     : number,
     url             : string,
   },
