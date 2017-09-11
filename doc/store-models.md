@@ -31,6 +31,7 @@
   _id         : string,
   payload     : string,
   payloadType : string,
+  noRetry     : boolean,
   retried     : number,
   priority    : number,
   topic       : string,
