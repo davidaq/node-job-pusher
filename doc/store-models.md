@@ -30,6 +30,7 @@
 {
   _id         : string,
   payload     : string,
+  payloadType : string,
   retried     : number,
   priority    : number,
   topic       : string,
